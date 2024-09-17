@@ -2,8 +2,16 @@ body {
     background: black;
 }
 
+::-moz-selection {
+    background: #868686;
+  }
+  
+  ::selection {
+    background: #868686;
+  }
+
 header, #userInput {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monospace;
     color: #CCC;
     font-size: 1em;
 }
